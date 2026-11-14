@@ -1,92 +1,127 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1220,45:172554,100:0891B2&height=230&section=header&text=Sameer%20Patel&fontSize=52&fontColor=F8FAFC&fontAlignY=36&desc=Software%20Engineer%20%7C%20Backend%20%26%20AI%20Systems&descAlignY=57&descSize=17" width="100%" alt="Sameer Patel — Software Engineer" />
+  <img
+    src="https://capsule-render.vercel.app/api?type=rect&color=1B1A17&height=178&section=header&text=Sameer%20Patel&fontSize=48&fontColor=EEE8DC&fontAlignY=40&desc=BACKEND%20ENGINEERING%20%2F%20AI%20SYSTEMS&descColor=C5A46D&descAlignY=68&descSize=14"
+    width="100%"
+    alt="Sameer Patel — Backend Engineering and AI Systems"
+  />
 
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=19&duration=2800&pause=900&color=38BDF8&center=true&vCenter=true&repeat=true&width=760&height=45&lines=Building+backend+systems+that+scale;Engineering+AI-powered+products;Exploring+RAG%2C+agents%2C+and+memory;Turning+ideas+into+working+software" alt="Animated introduction" />
-
-  <p>
-    <a href="https://github.com/samex111"><img src="https://komarev.com/ghpvc/?username=samex111&style=for-the-badge&color=0E7490&label=PROFILE+VIEWS" alt="Profile views" /></a>
-    <a href="https://github.com/samex111?tab=followers"><img src="https://img.shields.io/github/followers/samex111?style=for-the-badge&color=1D4ED8&labelColor=0B1220" alt="GitHub followers" /></a>
-  </p>
+  <img
+    src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=16&duration=3200&pause=1100&color=C5A46D&center=true&vCenter=true&repeat=true&width=820&height=42&lines=Backend+systems+for+AI-powered+products;Governed+agents%2C+retrieval%2C+and+tool+execution;APIs%2C+data+models%2C+and+async+workflows"
+    alt="Backend systems for AI-powered products"
+  />
 </div>
 
 ---
 
-## 👋 About Me
+## What I build
 
-I'm a software engineer who enjoys taking ideas from **architecture to implementation**. I work across backend engineering, full-stack development, and AI-powered applications.
+I work at the intersection of **backend engineering and applied AI**. My focus is the system around the model: the APIs, data layer, retrieval pipeline, tool execution, and asynchronous processing that turn an AI feature into a usable product.
 
-I’m especially interested in building reliable systems around **AI agents, retrieval, memory, and asynchronous workloads**—not just connecting an LLM to an API.
+I’m particularly interested in the engineering questions that appear after the first successful demo:
 
-- 🔭 Building **Accerra**, an AI-powered learning platform for JEE & NEET students.
-- 🧠 Exploring RAG, vector search, MCP, agent orchestration, and memory systems.
-- ⚙️ Interested in backend architecture, queues, background workers, and scalable APIs.
-- 🛠️ I like understanding how systems work under the hood.
+- **Execution boundaries:** What can an agent do, which tools can it access, and when should a human approve an action?
+- **Context and retrieval:** Which information should reach a model, how is it retrieved, and how do we keep the result grounded in useful context?
+- **Durable workflows:** How should long-running work move through queues, workers, databases, and real-time interfaces without tying everything to one request?
 
-## 🚀 Featured Projects
+I prefer understanding and designing these boundaries over simply connecting an LLM API to a chat interface.
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/samex111/guarded-ai-agent">Guarded AI Agent</a></h3>
-      <p>A policy-governed AI agent platform with MCP tool discovery, runtime guardrails, human approvals, audit logs, and real-time execution.</p>
-      <p><sub>TypeScript · Node.js · PostgreSQL · Redis · BullMQ · Docker · MCP</sub></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/samex111/web-scrapper">Web Scraper & Lead Intelligence</a></h3>
-      <p>An asynchronous scraping and lead intelligence platform with queued workers, website analysis, enrichment, and structured exports.</p>
-      <p><sub>Next.js · Express · Puppeteer · PostgreSQL · Redis · BullMQ · Docker</sub></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/samex111/Accerra">Accerra</a></h3>
-      <p>An AI-powered study platform for JEE and NEET aspirants, combining exam-focused practice, AI tutoring, analytics, and personalized learning.</p>
-      <p><sub>React · TypeScript · Node.js · MongoDB · Gemini · Vector Search</sub></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/samex111">More on GitHub</a></h3>
-      <p>Experiments, learning projects, and ongoing work across full-stack development and AI engineering.</p>
-      <p><sub>Always building. Always learning.</sub></p>
-    </td>
-  </tr>
-</table>
+## Selected engineering work
 
-## 🧰 Technologies & Tools
+### 01 — [Guarded AI Agent](https://github.com/samex111/guarded-ai-agent)
 
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=ts,js,python,java,react,nextjs,nodejs,express,mongodb,postgres,redis,docker,git,linux&perline=7" alt="Technologies and tools" />
-</div>
+**Problem**
 
-<p align="center">
-  <img src="https://img.shields.io/badge/AI-LLM%20Integration-0B7285?style=flat-square" alt="LLM Integration" />
-  <img src="https://img.shields.io/badge/RAG-Retrieval%20%26%20Vector%20Search-155E75?style=flat-square" alt="RAG and vector search" />
-  <img src="https://img.shields.io/badge/Architecture-Queues%20%26%20Workers-1D4ED8?style=flat-square" alt="Queues and workers" />
-  <img src="https://img.shields.io/badge/Protocol-MCP-334155?style=flat-square" alt="Model Context Protocol" />
-</p>
+An AI agent that can call tools also needs limits. Without a clear execution boundary, tool access, sensitive operations, and the history of an action become difficult to govern.
 
-## 📊 GitHub Activity
+**System**
 
-<div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=samex111&show_icons=true&hide_border=true&rank_icon=github&theme=transparent&include_all_commits=true" alt="GitHub statistics" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=samex111&layout=compact&hide_border=true&theme=transparent&langs_count=8" alt="Most used languages" />
-  <br />
-  <img src="https://streak-stats.demolab.com?user=samex111&theme=transparent&hide_border=true" alt="GitHub contribution streak" />
-</div>
+I built a policy-governed agent platform in which the policy engine sits between the agent runtime and MCP tools. It supports runtime tool discovery, policy evaluation, approval workflows for sensitive operations, sandboxed file access, and an audit trail. Socket.IO carries execution and approval updates to the interface.
 
-## 🐍 Contribution Trail
+**Engineering focus**
 
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/samex111/samex111/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/samex111/samex111/output/github-contribution-grid-snake.svg" />
-    <img alt="Animated snake eating GitHub contributions" src="https://raw.githubusercontent.com/samex111/samex111/output/github-contribution-grid-snake.svg" width="100%" />
-  </picture>
-</div>
+Separating agent orchestration, policy enforcement, and tool execution into explicit parts of the system; coordinating persistent state and background work.
+
+**Stack:** TypeScript · Node.js · Express · MCP · PostgreSQL · Prisma · Redis · BullMQ · Socket.IO · Docker
+
+---
+
+### 02 — [Web Scraper & Lead Intelligence](https://github.com/samex111/web-scrapper)
+
+**Problem**
+
+Modern websites often require browser rendering, and scraping several sites should not keep an API request open while the work completes. Raw page data is also less useful than structured information that can be searched and acted on.
+
+**System**
+
+I built an asynchronous scraping platform that separates the API from browser-based workers. Puppeteer handles dynamic pages; the pipeline extracts website metadata, business and contact signals, and social information, then stores structured results for lead analysis and export.
+
+**Engineering focus**
+
+API/worker separation, Redis-backed job queues, browser automation, structured extraction, authentication, and usage controls.
+
+**Stack:** Next.js · Express · TypeScript · Puppeteer · PostgreSQL · Prisma · Redis · BullMQ · Docker
+
+---
+
+### 03 — Accerra · Student Intelligence System
+
+<sub>In active development</sub>
+
+**Problem**
+
+A test score tells a student how they performed. It rarely explains which prerequisite concept is missing, why a mistake keeps recurring, or whether an idea is actually being retained.
+
+**Product direction**
+
+I’m building Accerra around a different model of student progress: connect concepts and their prerequisites with question attempts, mistakes, and learning signals. The goal is to form a learner-specific picture of understanding and use that context to guide explanations and practice.
+
+The current scope is Physics. I’m working on the knowledge structure and the data model that connects topic-level understanding with a student's learning history. This is an evolving product—not a claim that every planned capability is already shipped.
+
+**Technical direction**
+
+React · TypeScript · Node.js · Express · MongoDB · Mongoose · MongoDB Atlas Vector Search · Gemini
+
+---
+
+### 04 — [SMJMUN Institutional Platform](https://www.smjmun.com/)
+
+<sub>Client project · Live</sub>
+
+**Problem**
+
+A Model UN organization needs more than a static brochure website. Students need to discover conferences and apply; schools, partners, and volunteers need clear inquiry paths; delegates need a reliable registration journey.
+
+**Delivery**
+
+I designed and developed the public-facing platform around those journeys, including structured conference content, application and inquiry flows, and conference registration/payment integration.
+
+**Stack:** Next.js · TypeScript · Sanity · PostgreSQL · Prisma · Resend · HDFC SmartGateway / Juspay
+
+---
+
+## Engineering toolkit
+
+| Area | Technologies |
+|---|---|
+| Backend | TypeScript, Node.js, Express, REST APIs |
+| Data | PostgreSQL, Prisma, MongoDB, Mongoose |
+| Async & realtime | Redis, BullMQ, Socket.IO |
+| AI systems | Gemini, RAG, embeddings, vector search, MCP |
+| Frontend | React, Next.js, Tailwind CSS |
+| Development & deployment | Docker, Docker Compose, Linux, Git |
+
+## What I’m digging into now
+
+- **Retrieval quality:** combining structured knowledge with semantic retrieval, and evaluating whether retrieved context is actually useful.
+- **Agent reliability:** keeping model reasoning, tool permissions, policy decisions, and human approvals distinct.
+- **Learning models:** representing prerequisite relationships and student understanding as connected data rather than a collection of scores.
 
 ---
 
 <div align="center">
-  <i>Build with curiosity. Engineer with intent.</i>
+  <sub>Building systems with clear boundaries, useful context, and behaviour that can be understood.</sub>
   <br /><br />
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0891B2,55:172554,100:0B1220&height=105&section=footer" width="100%" alt="" />
+  <a href="https://github.com/samex111">GitHub</a>
+  &nbsp;·&nbsp;
+  <a href="https://www.smjmun.com/">Selected client delivery</a>
 </div>
