@@ -27,7 +27,7 @@ I prefer understanding and designing these boundaries over simply connecting an 
 
 ## Selected engineering work
 
-### 01 — [Guarded AI Agent](https://github.com/samex111/guarded-ai-agent)
+<a href="https://github.com/samex111/guarded-ai-agent"><img src="https://raw.githubusercontent.com/samex111/samex111/main/assets/guarded-ai-agent.svg" width="100%" alt="01 — Guarded AI Agent" /></a>
 
 **Problem**
 
@@ -45,7 +45,7 @@ Separating agent orchestration, policy enforcement, and tool execution into expl
 
 ---
 
-### 02 — [Web Scraper & Lead Intelligence](https://github.com/samex111/web-scrapper)
+<a href="https://github.com/samex111/web-scrapper"><img src="https://raw.githubusercontent.com/samex111/samex111/main/assets/web-scraper.svg" width="100%" alt="02 — Web Scraper and Lead Intelligence" /></a>
 
 **Problem**
 
@@ -63,7 +63,7 @@ API/worker separation, Redis-backed job queues, browser automation, structured e
 
 ---
 
-### 03 — Accerra · Student Intelligence System
+<a href="https://github.com/samex111/Accerra"><img src="https://raw.githubusercontent.com/samex111/samex111/main/assets/accerra.svg" width="100%" alt="03 — Accerra Student Intelligence System" /></a>
 
 <sub>In active development</sub>
 
@@ -83,7 +83,7 @@ React · TypeScript · Node.js · Express · MongoDB · Mongoose · MongoDB Atla
 
 ---
 
-### 04 — [SMJMUN Institutional Platform](https://www.smjmun.com/)
+<a href="https://www.smjmun.com/"><img src="https://raw.githubusercontent.com/samex111/samex111/main/assets/smjmun.svg" width="100%" alt="04 — SMJMUN Institutional Platform" /></a>
 
 <sub>Client project · Live</sub>
 
@@ -120,8 +120,4 @@ I designed and developed the public-facing platform around those journeys, inclu
 
 <div align="center">
   <sub>Building systems with clear boundaries, useful context, and behaviour that can be understood.</sub>
-  <br /><br />
-  <a href="https://github.com/samex111">GitHub</a>
-  &nbsp;·&nbsp;
-  <a href="https://www.smjmun.com/">Selected client delivery</a>
 </div>
